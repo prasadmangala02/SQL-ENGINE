@@ -210,7 +210,8 @@ def from_where(res_df, conditions):
     return res_df
     # print(res_df[res_df['name'] == 'Velociraptor'])
     # print(res_df)
-
+def orderby(res_df, attr):
+    print(res_df)
 
 query = "SELECT attr1,attr2,attr3 FROM dino1.csv,dino2.csv WHERE condition1,condition2"
 select_query_one_attribute = "SELECT NAME FROM dino1.csv"
